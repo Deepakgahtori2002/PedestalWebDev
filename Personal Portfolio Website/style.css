@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: hsl(182, 86%, 54%);
+  }
+  
+  header {
+    background: #9aeaf5;
+    color: #8411c7;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:darkviolet;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 35px;
+  }
+  
+  .project-card {
+    background: #91d8f5;
+    border: 1px solid #7a78e4;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #5ae6ce;
+    color: #8411c7;
+    margin-top: 2rem;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  form input, form textarea, form button {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background: #ec7f97;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #555;
+  }
+
+  
